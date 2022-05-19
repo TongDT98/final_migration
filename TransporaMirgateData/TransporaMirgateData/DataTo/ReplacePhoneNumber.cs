@@ -33,6 +33,11 @@ namespace TransporaMirgateData.DataTo
                         phonecode = "+41";
                         phonenumber = phoneresult.Substring(1, phoneresult.Length - 1);
                     }
+                    else
+                    {
+                        phonecode = "+41";
+                        phonenumber = phoneresult;
+                    }
                     
                 }
             }

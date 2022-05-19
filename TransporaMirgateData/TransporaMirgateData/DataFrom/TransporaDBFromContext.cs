@@ -10,7 +10,7 @@ namespace TransporaMirgateData.DataFrom
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=localhost;port=3306; database=transpora_product_1205; user=root; password=050698;Convert Zero Datetime=true;", ServerVersion.AutoDetect(@"server=210.245.85.229;port=3316; database=transpora_staging_bk; user=root; password=Thanhbipkeo@123"));
+            optionsBuilder.UseMySql("server=localhost;port=3306; database=transpora_product_1205; user=root; password=050698;Convert Zero Datetime=true;", ServerVersion.AutoDetect(@"server=210.245.85.229;port=3316; database=transpora_mg_pr; user=root; password=Thanhbipkeo@123"));
             // optionsBuilder.UseMySql("server=localhost;port=3306; database=transpora_dev; user=root; password=123456");
         }
 

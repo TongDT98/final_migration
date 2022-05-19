@@ -48,7 +48,7 @@ namespace TransporaMirgateData.DataTo.Model
         public bool IsDefault { get; set; }
         public int? TwoFactorAuthenticator_Id { get; set; }
         public bool IsChangePasswordDefault { get; set; } = false;
-        //public bool IsLoginMd5 { get; set; } = false;
-        //public string Md5Hash { get; set; }
+        public bool IsLoginMd5 { get; set; } = false;
+        public string Md5Hash { get; set; }
     }
 }
